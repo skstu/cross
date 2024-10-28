@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\build_x64\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D8AEB7-9CBD-399D-A7EE-E209E5816675}|minigzip.vcxproj|C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\minigzip.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71812064-0238-3716-8E59-C194DFE33E39}|example.vcxproj|C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\example.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0D8AEB7-9CBD-399D-A7EE-E209E5816675}|minigzip.vcxproj|C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "minigzip.c",
+              "DocumentMoniker": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\minigzip.c",
+              "RelativeDocumentMoniker": "..\\test\\minigzip.c",
+              "ToolTip": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\minigzip.c",
+              "RelativeToolTip": "..\\test\\minigzip.c",
+              "ViewState": "AgIAALkBAAAAAAAAAAAAAK0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-16T11:29:41.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "example.c",
+              "DocumentMoniker": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\example.c",
+              "RelativeDocumentMoniker": "..\\test\\example.c",
+              "ToolTip": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\test\\example.c",
+              "RelativeToolTip": "..\\test\\example.c",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-16T11:29:25.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "..\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\k34ub\\source\\skstu\\devkit_last\\3rdlocal\\zlib\\CMakeLists.txt",
+              "RelativeToolTip": "..\\CMakeLists.txt",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-16T11:27:45.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

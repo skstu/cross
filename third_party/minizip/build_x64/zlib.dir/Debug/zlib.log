@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library C:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib/build_x64/Debug/zlibd.lib and object C:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib/build_x64/Debug/zlibd.exp
+  zlib.vcxproj -> C:\Users\k34ub\source\skstu\devkit_last\3rdlocal\zlib\build_x64\Debug\zlibd.dll

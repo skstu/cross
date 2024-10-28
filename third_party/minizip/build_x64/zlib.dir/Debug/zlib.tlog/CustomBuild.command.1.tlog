@@ -1,0 +1,10 @@
+^C:\USERS\K34UB\SOURCE\SKSTU\DEVKIT_LAST\3RDLOCAL\ZLIB\CMAKELISTS.TXT
+setlocal
+C:\Users\k34ub\Downloads\cmake-3.28.0-windows-x86_64\bin\cmake.exe -SC:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib -BC:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib/build_x64 --check-stamp-file C:/Users/k34ub/source/skstu/devkit_last/3rdlocal/zlib/build_x64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
