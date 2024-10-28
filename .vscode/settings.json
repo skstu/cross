@@ -1,0 +1,4 @@
+{
+    "cmake.installPrefix": "/opt/homebrew/bin/cmake",
+    "cmake.cmakePath": "/opt/homebrew/bin/cmake"
+}
