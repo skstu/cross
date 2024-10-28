@@ -3,8 +3,12 @@
 BUILD_DIR="../build"
 INSTALL_DIR="/../installed" 
 CMAKE_GENERATOR="Ninja"  
+<< COMMENT
 CC="/C/msys64/clang64/bin/clang.exe"
 CXX="/C/msys64/clang64/bin/clang++.exe"
+COMMENT
+CC="/usr/bin/clang"
+CXX="/usr/bin/clang++"
 
 if [ ! -d "$BUILD_DIR" ]; then
   echo "Creating build directory: $BUILD_DIR"
