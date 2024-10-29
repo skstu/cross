@@ -1,6 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
 project(cross)
 
+if(${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
+ message(STATUS "System: Windows")
+elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
+ message(STATUS "System: Linux")
+elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Darwin")
+ message(STATUS "System: macOS")
+else()
+ message(STATUS "Unknown system: ${CMAKE_SYSTEM_NAME}")
+endif()
+
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
