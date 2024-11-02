@@ -20,18 +20,6 @@ else()
 endif()
 
 message(STATUS ${CMAKE_SYSTEM_NAME})
-#[[
-if(${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
- message(STATUS "System: Windows")
-elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
- message(STATUS "System: Linux")
-elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Darwin")
- message(STATUS "System: macOS")
- 
-else()
- message(STATUS "Unknown system: ${CMAKE_SYSTEM_NAME}")
-endif()
-]]
 
 
 set(SOLUTION_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/)
@@ -49,6 +37,10 @@ set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "CMakeTargets")
 LIST(APPEND CMAKE_MODULE_PATH ${LOCAL_CMAKE_MODULES_PATH})
 include(global)
 
+GFN_SET_TARGET_OUTDIR(${SOLUTION_ROOT_DIR} "bin" "objs" "libs")
+
 # add_executable(test_env tests/test_env/main.cc)
 add_library(testdll_env SHARED tests/test_env/dllmain.cc)
+
+GFN_SET_TARGET_OUTDIR("")
 
