@@ -1,5 +1,8 @@
 {
-    "cmake.installPrefix": "/opt/homebrew/bin/cmake",
-    "cmake.cmakePath": "/opt/homebrew/bin/cmake",
-    "terminal.integrated.defaultProfile.windows": "bash (MSYS2)"
+    "cmake.installPrefix": "cmake",
+    "cmake.cmakePath": "cmake",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "cmake.automaticReconfigure": false,
+    "cmake.configureOnEdit": false,
+    "cmake.configureOnOpen": false
 }

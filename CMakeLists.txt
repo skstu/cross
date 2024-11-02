@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
+
 project(cross)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -8,8 +9,6 @@ if(WIN32)
     set(CMAKE_SYSTEM_NAME "Windows")
     set(CC C:/msys64/clang64/bin/clang)
     set(CXX C:/msys64/clang64/bin/clang++)
-    #set(CC /c/msys64/clang64/clang)
-    #set(CXX /c/msys64/clang64/clang++)
 elseif(APPLE)
     set(CMAKE_SYSTEM_NAME "macOS")
 elseif(UNIX)
